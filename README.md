@@ -65,26 +65,12 @@ npm run deploy:contracts
 
 ## 🛠️ Technology Stack
 
-### Frontend
-- **Framework**: React 18 with TypeScript
-- **Styling**: Tailwind CSS with custom components
-- **Web3**: Wagmi + RainbowKit for wallet integration
-- **Build**: Vite with optimized bundling
-- **Deployment**: Vercel with automatic deployments
-
-### Backend  
-- **Runtime**: Node.js with TypeScript
-- **Database**: Supabase (PostgreSQL with real-time)
-- **Authentication**: Discord OAuth integration
-- **Storage**: IPFS via Pinata for metadata
-- **API**: RESTful services with type safety
-
-### Smart Contracts
-- **Language**: Solidity ^0.8.20
-- **Framework**: Foundry for development and testing
-- **Standards**: ERC721 with soulbound modifications
-- **Network**: Lisk Sepolia (testnet), multi-chain ready
-- **Features**: Non-transferable badges, quest verification
+| Component | Technologies |
+|-----------|-------------|
+| **Frontend** | React 18, TypeScript, Vite, Wagmi, RainbowKit, Tailwind CSS |
+| **Backend** | Supabase, PostgreSQL, TypeScript, Discord API, IPFS |
+| **Blockchain** | Solidity, Foundry, OpenZeppelin, Lisk Blockchain |
+| **Deployment** | Netlify, Supabase Cloud, Lisk Sepolia |
 
 ## 📦 Available Scripts
 
@@ -140,17 +126,6 @@ questlog/
 │   └── validate-dependencies.js # Dependency checking
 └── package.json                # Workspace configuration
 ```
-
-## 🔗 Integration Flow
-
-### Quest Creation & Completion
-1. **Admin Panel** (Frontend) → Create quest via UI
-2. **Backend Services** → Store quest data in Supabase
-3. **Smart Contracts** → Deploy quest logic on blockchain
-4. **User Interaction** → Complete quest requirements
-5. **Verification** → Backend validates completion
-6. **Badge Minting** → Smart contract mints soulbound NFT
-7. **Cross-Device Sync** → Supabase syncs progress across devices
 
 ### Web2 ↔ Web3 Bridge
 - **Authentication**: Discord OAuth for familiar login experience

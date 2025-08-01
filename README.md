@@ -65,7 +65,7 @@ npm run deploy:contracts
 
 ## 🌐 Live Demo
 
-- **Frontend**: [https://questlog-frontend.vercel.app](https://questlog-frontend.vercel.app)
+- **Frontend**: [https://questlog-dapp.netlify.app](https://questlog-dapp.netlify.app)
 - **Contracts**: [Lisk Sepolia Testnet](https://sepolia-blockscout.lisk.com/address/0xb4268cbf5e95a326646703a7435257899c151132)
 
 ## 🛠️ Technology Stack
@@ -170,8 +170,8 @@ questlog/
 
 Each module can be deployed independently:
 
-- **Frontend**: [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/kashiwagiren/Questlog)
-- **Backend**: [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/kashiwagiren/Questlog)
+- **Frontend**: [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/kashiwagiren/Questlog/questlog-frontend)
+- **Backend**: [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/kashiwagiren/Questlog/questlog-backend)
 - **Contracts**: See [contracts deployment guide](./questlog-contracts/DEPLOYMENT.md)
 
 ### Production Setup

@@ -276,15 +276,6 @@ const { data: hasBadge } = useContractRead({
 6. Push to branch: `git push origin feature/amazing-feature`
 7. Open a Pull Request
 
-### Contract Interaction Flow
-
-1. **User completes quest** in frontend (Discord join, social task, etc.)
-2. **Frontend calls** `QuestMinter.completeQuestWithMetadata()`
-3. **QuestMinter verifies** user hasn't completed quest before
-4. **QuestMinter calls** `QuestlogBadge.mint()` to create NFT badge
-5. **Badge is minted** as soulbound token to user's wallet
-6. **Events emitted** for real-time frontend updates
-
 ---
 
 ## 📄 License

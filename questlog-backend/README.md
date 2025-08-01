@@ -49,21 +49,23 @@ The Questlog backend handles:
 ```
 questlog-backend/
 ├── services/                  # Core backend services
-│   ├── supabase.ts            # Supabase client and database operations
-│   ├── discord.ts             # Discord OAuth and verification
-│   ├── crossDeviceStorage.ts  # Cross-device sync utilities
-│   └── supabaseMigration.ts   # Database migration tools
-├── types/                     # TypeScript type definitions
-│   ├── quest.ts               # Quest-related types
-│   └── badge.ts               # Badge and achievement types
-├── supabase/                  # Supabase configuration & migrations
-│   ├── config.toml            # Local development settings
-│   └── migrations/            # SQL migration files
-├── migrations/                # Legacy or additional migrations
-├── *.sql                      # Schema files (full, simplified, RLS)
-├── .env.example               # Environment template
-├── package.json               # Dependencies and scripts
-└── tsconfig.json              # TypeScript configuration
+│   ├── supabase.ts           # Supabase client and database operations
+│   ├── discord.ts            # Discord OAuth and server verification
+│   ├── crossDeviceStorage.ts # Cross-device sync utilities
+│   └── supabaseMigration.ts  # Database migration tools
+├── types/                    # TypeScript type definitions
+│   ├── quest.ts             # Quest-related types
+│   └── badge.ts             # Badge and achievement types
+├── supabase/                # Supabase configuration
+│   └── config.toml          # Local development settings
+├── *.sql                    # Database schema files
+│   ├── supabase-schema-simple.sql  # Basic schema
+│   ├── supabase-schema.sql         # Full schema
+│   ├── supabase-rls-secure.sql     # Row Level Security
+│   └── supabase-rls-fix.sql        # RLS patches
+├── .env.example             # Environment template
+├── package.json             # Dependencies and scripts
+└── tsconfig.json           # TypeScript configuration
 ```
 
 ---
@@ -72,7 +74,7 @@ questlog-backend/
 
 ### Prerequisites
 
-* **Node.js** 18+
+* **Node.js** 18+ and **npm**
 * **Supabase CLI** (`npm install -g supabase`)
 * **Docker** (for local Supabase)
 * **Supabase Account** (for production)
@@ -84,14 +86,6 @@ git clone https://github.com/kashiwagiren/Questlog/questlog-backend.git
 cd questlog-backend
 npm install
 cp .env.example .env  # edit with your Supabase credentials
-```
-
-### Local Development
-
-```bash
-npm run dev       # start local Supabase
-npm run studio    # open Supabase Studio
-npm run migration:up   # apply migrations
 ```
 
 ---
@@ -215,6 +209,116 @@ npm run format          # Format code
 npm run functions:serve # Serve Edge Functions locally
 npm run functions:deploy# Deploy Edge Functions
 ```
+---
+
+## 🔧 Services
+
+### Core Backend Services
+
+#### 1. Supabase Service (`services/supabase.ts`)
+Main database interface with type-safe operations:
+
+```typescript
+export class SupabaseService {
+  // Quest operations
+  async saveQuest(quest: Quest): Promise<Quest>
+  async getQuest(questId: string): Promise<Quest | null>
+  async getUserQuests(userAddress: string): Promise<Quest[]>
+  
+  // User progress tracking
+  async joinQuest(userAddress: string, questId: string): Promise<void>
+  async completeQuest(userAddress: string, questId: string): Promise<void>
+  
+  // Badge management
+  async awardBadge(userAddress: string, badge: Badge): Promise<void>
+  async getUserBadges(userAddress: string): Promise<Badge[]>
+}
+```
+
+#### 2. Cross-Device Storage (`services/crossDeviceStorage.ts`)
+Hybrid storage system with Supabase + localStorage fallback:
+
+```typescript
+export class CrossDeviceStorage {
+  async saveQuest(quest: Quest): Promise<void>
+  async getQuests(): Promise<Quest[]>
+  async syncToCloud(): Promise<void>
+  async syncFromCloud(): Promise<void>
+}
+```
+
+#### 3. Discord Integration (`services/discord.ts`)
+OAuth authentication and server verification:
+
+```typescript
+export class DiscordService {
+  async authenticate(code: string): Promise<DiscordUser>
+  async verifyServerMembership(userId: string, serverId: string): Promise<boolean>
+  async getUserGuilds(accessToken: string): Promise<DiscordGuild[]>
+}
+```
+
+---
+
+## 🌐 API Endpoints
+
+### Auto-generated REST API
+Supabase automatically generates REST API endpoints:
+
+- **GET** `/rest/v1/quests` - List all public quests
+- **POST** `/rest/v1/quests` - Create new quest
+- **GET** `/rest/v1/user_progress?user_address=eq.{address}` - Get user progress
+- **POST** `/rest/v1/user_badges` - Award new badge
+
+### Real-time Subscriptions
+Subscribe to real-time updates:
+
+```typescript
+// Listen for new quest completions
+supabase
+  .channel('quest-completions')
+  .on('postgres_changes', 
+    { event: 'INSERT', schema: 'public', table: 'user_progress' },
+    (payload) => {
+      console.log('New quest completion:', payload.new);
+    }
+  )
+  .subscribe();
+```
+
+## 🧪 Testing
+
+### Database Testing
+
+```bash
+# Reset database for testing
+npm run reset
+
+# Seed test data
+npm run db:seed
+
+# Run integration tests
+npm test
+```
+
+### Test Data Seeds
+
+Create test data in `supabase/seed.sql`:
+
+```sql
+-- Insert test quests
+INSERT INTO public.quests (id, creator_address, title, description, category, difficulty, reward, quest_data)
+VALUES (
+  'test-quest-1',
+  '0x1234567890123456789012345678901234567890',
+  'Join Discord Server',
+  'Join our community Discord server',
+  'social',
+  'easy',
+  'Discord Member Badge',
+  '{}'::jsonb
+);
+```
 
 ---
 
@@ -239,13 +343,15 @@ VITE_PINATA_JWT=your_pinata_jwt
 
 ## 🚀 Deployment
 
-### Local
+### Local Development
 
 ```bash
-npm run dev
+npm run dev        # Starts localhost
+npm run studio    # open Supabase Studio
+npm run migration:up   # apply migrations
 ```
 
-### Production
+### Production Deployment
 
 1. Create Supabase project at [supabase.com](https://supabase.com)
 2. Apply schema with migrations

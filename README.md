@@ -7,8 +7,8 @@ A comprehensive Web3 application for creating and managing quest-based achieveme
 This monorepo contains three main components:
 
 - **[questlog-frontend](./questlog-frontend/README.md)** - React/TypeScript web application
-- **[questlog-backend](./questlog-backend/README.md)** - TypeScript backend services and APIs  
 - **[questlog-contracts](./questlog-contracts/README.md)** - Solidity smart contracts (Foundry)
+- **[questlog-backend](./questlog-backend/README.md)** - TypeScript backend services and APIs
 
 ## 🚀 Quick Start
 

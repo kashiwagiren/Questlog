@@ -134,13 +134,7 @@ git clone https://github.com/kashiwagiren/Questlog.git && cd Questlog
 ✅ Strict TypeScript mode  
 ✅ 90%+ test coverage  
 ✅ ESLint + Prettier formatting  
-✅ Updated documentation with every architectural change  
-
-## 📚 Documentation  
-
-- [Frontend Docs](./questlog-frontend/README.md)  
-- [Backend Docs](./questlog-backend/README.md)  
-- [Contracts Docs](./questlog-contracts/README.md)  
+✅ Updated documentation with every architectural change
 
 ## 🐛 Troubleshooting  
 

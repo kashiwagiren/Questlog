@@ -170,8 +170,6 @@ questlog/
 
 Each module can be deployed independently:
 
-- **Frontend**: [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/kashiwagiren/Questlog/questlog-frontend)
-- **Backend**: [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/kashiwagiren/Questlog/questlog-backend)
 - **Contracts**: See [contracts deployment guide](./questlog-contracts/DEPLOYMENT.md)
 
 ### Production Setup

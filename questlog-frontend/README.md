@@ -181,7 +181,7 @@ npm run lint         # Run ESLint for code quality checks
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Frontend      │    │   Backend       │    │ Smart Contracts │
-│                 │────│   Services      │────│   (Solidity)    │
+│   Application   │────│   Services      │────│   (Solidity)    │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
         │                        │                        │
         │                        │                        │

@@ -19,7 +19,7 @@ import { liskSepolia } from "wagmi/chains";
  */
 export const config = getDefaultConfig({
   appName: "Questlog", // App name shown in wallet connection
-  projectId: "8c8a1bb906fee11fc397ce645445120b", // WalletConnect project ID for wallet support
+  projectId: "your_project_Id", // WalletConnect project ID for wallet support
   chains: [liskSepolia], // Supported blockchain networks
   ssr: false, // Disable server-side rendering (client-only app)
 });

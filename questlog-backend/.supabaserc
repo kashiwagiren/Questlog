@@ -2,4 +2,4 @@
 
 # This file tells the Supabase CLI/extension about your remote project
 
-project_id = "vgwafgrvyxjublfuacqa"
+project_id = "your_supabase_project_id"

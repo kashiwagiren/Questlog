@@ -355,40 +355,6 @@ graph LR
 3. **Blockchain Integration**: Badge minting triggered via smart contracts
 4. **Permanent Storage**: Achievements stored as soulbound NFTs on Lisk
 
-## 🌐 Live Deployment
-
-### Frontend
-- **Platform**: Netlify
-- **URL**: [questlog.netlify.app](https://questlog-dapp.netlify.app)
-- **Auto-Deploy**: Connected to GitHub for automatic deployments
-
-### Smart Contracts  
-- **Network**: Lisk Sepolia Testnet
-- **QuestlogBadge**: `0xb4268cbf5e95a326646703a7435257899c151132`
-- **QuestMinter**: `0x09f3dd43ba9f9efcffeea8e5632b0c9b71bed90c`
-- **Explorer**: [Lisk Sepolia Blockscout](https://sepolia-blockscout.lisk.com/)
-
-### Backend
-- **Database**: Supabase PostgreSQL
-- **Real-time**: WebSocket connections for live updates
-- **Storage**: IPFS via Pinata for decentralized image storage
-
-## �️ Technology Stack
-
-| Component | Technologies |
-|-----------|-------------|
-| **Frontend** | React 18, TypeScript, Vite, Wagmi, RainbowKit, Tailwind CSS |
-| **Backend** | Supabase, PostgreSQL, TypeScript, Discord API, IPFS |
-| **Blockchain** | Solidity, Foundry, OpenZeppelin, Lisk Blockchain |
-| **Deployment** | Netlify, Supabase Cloud, Lisk Sepolia |
-
-## 🔗 Links
-
-- **🌐 Live Application**: [questlog-dapp.netlify.app](https://questlog-dapp.netlify.app)
-- **📊 Smart Contracts**: [Lisk Sepolia Explorer](https://sepolia-blockscout.lisk.com/address/0xb4268cbf5e95a326646703a7435257899c151132)
-- **📖 Documentation**: Individual repository READMEs
-- **🐛 Issues**: Report issues in the respective repository
-
 ---
 
 **Built with ❤️ for the Web3 community by the Questlog Team**

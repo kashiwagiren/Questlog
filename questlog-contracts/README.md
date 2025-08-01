@@ -62,13 +62,6 @@ The Questlog smart contract system enables:
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-### Integration Flow
-
-1. **Frontend**: User completes quest in React application
-2. **Backend**: Quest data stored and validated in database  
-3. **Smart Contracts**: Badge minting triggered via Web3 transaction
-4. **Blockchain**: Permanent soulbound NFT badge stored on-chain
-
 ## 📁 Repository Structure
 
 ```

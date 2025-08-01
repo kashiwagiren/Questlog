@@ -242,8 +242,8 @@ This project is licensed under the MIT License
 
 ## 🔗 Related Projects
 
-* [Questlog Contracts](./questlog-contracts)
-* [Questlog Backend](./questlog-backend)
+* [Questlog Contracts](../questlog-contracts)
+* [Questlog Backend](../questlog-backend)
 
 **Built with ❤️ for the Web3 community**
 

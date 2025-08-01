@@ -316,21 +316,6 @@ const { data: hasBadge } = useContractRead({
 6. Push to branch: `git push origin feature/amazing-feature`
 7. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-**Built with ❤️ for the Web3 community**
-        │                        │                        │
-        ▼                        ▼                        ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│ Quest Completion│    │ Completion      │    │ Soulbound NFT   │
-│ UI & Validation │    │ Verification    │    │ Badge Minting   │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-```
-
 ### Contract Interaction Flow
 
 1. **User completes quest** in frontend (Discord join, social task, etc.)
@@ -644,6 +629,6 @@ questlog-contracts/
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
 
 ---

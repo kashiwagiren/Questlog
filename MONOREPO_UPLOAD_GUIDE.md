@@ -1,7 +1,5 @@
 # 🚀 Questlog Monorepo - GitHub Upload Guide
 
-**Ready to push to https://github.com/kashiwagiren/Questlog**
-
 ## 📋 Monorepo Structure
 
 This is organized as a **single repository** containing all three components:
@@ -20,7 +18,7 @@ kashiwagiren/Questlog/
 ## 🔗 GitHub Repository
 
 Create **one repository** on GitHub:
-- **Repository Name**: `Questlog` (with capital Q)
+- **Repository Name**: `Questlog`
 - **URL**: `https://github.com/kashiwagiren/Questlog`
 - **Description**: "Complete Web3 quest and badge management system with soulbound NFTs"
 - **Topics**: `web3`, `react`, `typescript`, `solidity`, `nft`, `quest`, `badges`, `supabase`, `foundry`

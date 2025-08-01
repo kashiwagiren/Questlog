@@ -22,12 +22,12 @@ A comprehensive smart contract system built with **Solidity** and **Foundry** th
 
 - [Overview](#-overview)
 - [Architecture](#-architecture)
+- [Repository Structure](#-repository-structure)
 - [Smart Contracts](#-smart-contracts)
 - [Key Features](#-key-features)
 - [Installation](#-installation)
-- [Deployment](#-deployment)
-- [Usage](#-usage)
 - [Testing](#-testing)
+- [Deployment](#-deployment)
 - [Frontend Integration](#-frontend-integration)
 - [Security Considerations](#-security-considerations)
 

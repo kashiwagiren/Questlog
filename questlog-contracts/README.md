@@ -21,7 +21,6 @@ A comprehensive smart contract system built with **Solidity** and **Foundry** th
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
-- [Architectur](#-architectur)
 - [Repository Structure](#-repository-structure)
 - [Smart Contracts](#-smart-contracts)
 - [Key Features](#-key-features)
@@ -45,7 +44,7 @@ The Questlog smart contract system enables:
 - **Frontend Integration**: Seamless Web3 integration with the React frontend
 - **Access Control**: Secure minting with proper authorization
 
-## 🏗️ Architectur
+## 🏗️ Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐

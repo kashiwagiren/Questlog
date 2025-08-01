@@ -1,4 +1,4 @@
-# Questlog - Complete Web3 Quest & Badge System
+# Questlog
 
 A comprehensive Web3 application for creating and managing quest-based achievements with soulbound NFT badges.
 

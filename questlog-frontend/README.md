@@ -21,7 +21,7 @@ A comprehensive React-based frontend for a Web3 quest and achievement system tha
 - 🌐 **Web3 Integration**: Full blockchain integration with wallet connection, transaction handling, and smart contract interaction
 - 📱 **Responsive Design**: Mobile-first design optimized for all device sizes
 - 🎨 **Modern UI**: Beautiful interface built with Tailwind CSS and Lucide React icons
-- 🔗 **Cross-Device Sync**: Quest data synchronized across devices using backend services with localStorage fallback
+- 🔗 **Cross-Device Sync**: Quest data synchronized across devices using backend services
 - 🎯 **Discord Integration**: OAuth authentication and server-based quest requirements
 - 📁 **IPFS Storage**: Decentralized image storage through Pinata for badge designs
 - 🔔 **Real-time Notifications**: Comprehensive notification system for user feedback

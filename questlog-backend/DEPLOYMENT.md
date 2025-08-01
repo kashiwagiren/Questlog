@@ -207,6 +207,6 @@ jobs:
 
 ### Support
 
-- **GitHub Issues**: [Report issues](https://github.com/kashiwagiren/Questlog/questlog-backend/issues)
+- **GitHub Issues**: [Report issues](https://github.com/kashiwagiren/Questlog/issues)
 - **Documentation**: [Full README](./README.md)
 - **Discord**: Join our community server

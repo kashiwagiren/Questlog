@@ -44,7 +44,7 @@ The Questlog smart contract system enables:
 - **Frontend Integration**: Seamless Web3 integration with the React frontend
 - **Access Control**: Secure minting with proper authorization
 
-## 📁 Repository Structure
+## 📁 Project Structure
 
 ```
 questlog-contracts/

@@ -315,16 +315,6 @@ This project is licensed under the MIT License.
 - [ ] Gamification features and leaderboards
 - [ ] Integration with popular Web3 tools
 
----
-
-**Built with ❤️ by the Questlog Team**
-
-*Bridging Web2 familiarity with Web3 innovation for the next generation of digital achievements.* - Web3 Achievement Tracker Ecosystem
-
-**A comprehensive Web3 quest and achievement system that bridges Web2 and Web3**
-
-🌐 **[Live Demo](https://questlog-dapp.netlify.app)** | 📊 **[Smart Contracts](https://sepolia-blockscout.lisk.com/address/0xb4268cbf5e95a326646703a7435257899c151132)**
-
 ## 🌟 Project Overview
 
 Questlog enables users to create quests, complete tasks, and earn permanent soulbound NFT badges stored on the blockchain, combining traditional quest mechanics with Web3 innovations.
@@ -345,12 +335,12 @@ Questlog enables users to create quests, complete tasks, and earn permanent soul
         │                        │                        │
         │                        │                        │
         ▼                        ▼                        ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│ • UI Components │    │ • PostgreSQL DB │    │ • Soulbound NFTs│
-│ • Quest Creation│    │ • Real-time Sync│    │ • Badge Minting │
-│ • User Profiles │    │ • Discord OAuth │    │ • Lisk Blockchain│
+┌─────────────────┐    ┌─────────────────┐    ┌───────────────────┐
+│ • UI Components │    │ • PostgreSQL DB │    │ • Soulbound NFTs  │
+│ • Quest Creation│    │ • Real-time Sync│    │ • Badge Minting   │
+│ • User Profiles │    │ • Discord OAuth │    │ • Lisk Blockchain │
 │ • Web3 Wallet   │    │ • IPFS Storage  │    │ • Quest Validation│
-└─────────────────┘    └─────────────────┘    └─────────────────┘
+└─────────────────┘    └─────────────────┘    └───────────────────┘
 ```
 
 ## 📁 Repository Structure

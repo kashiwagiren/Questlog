@@ -1,0 +1,5 @@
+# Supabase project configuration
+
+# This file tells the Supabase CLI/extension about your remote project
+
+project_id = "vgwafgrvyxjublfuacqa"

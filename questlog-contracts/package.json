@@ -1,0 +1,50 @@
+{
+  "name": "questlog-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for Questlog - soulbound NFT badges and quest management",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kashiwagiren/Questlog.git",
+    "directory": "questlog-contracts"
+  },
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test",
+    "test:coverage": "forge coverage",
+    "test:gas": "forge test --gas-report",
+    "deploy": "forge script script/DeployQuestSystem.s.sol --rpc-url $LISK_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast --verify",
+    "deploy:badge": "forge script script/DeployQuestlogBadge.s.sol --rpc-url $LISK_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast --verify",
+    "lint": "forge fmt --check",
+    "lint:fix": "forge fmt",
+    "clean": "forge clean",
+    "install": "forge install",
+    "update": "forge update"
+  },
+  "keywords": [
+    "solidity",
+    "smart-contracts",
+    "nft",
+    "soulbound",
+    "badges",
+    "quest",
+    "web3",
+    "ethereum",
+    "foundry"
+  ],
+  "author": "Questlog Team",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "files": [
+    "src/",
+    "script/",
+    "test/",
+    "foundry.toml",
+    "remappings.txt"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

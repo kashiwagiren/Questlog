@@ -1,0 +1,61 @@
+{
+  "name": "questlog-workspace",
+  "version": "1.0.0",
+  "description": "Complete Web3 quest and badge system workspace",
+  "private": true,
+  "workspaces": [
+    "questlog-frontend",
+    "questlog-backend", 
+    "questlog-contracts"
+  ],
+  "scripts": {
+    "install:all": "npm install && npm run install:frontend && npm run install:backend && npm run install:contracts",
+    "install:frontend": "cd questlog-frontend && npm install",
+    "install:backend": "cd questlog-backend && npm install", 
+    "install:contracts": "cd questlog-contracts && npm install",
+    "build:all": "npm run build:backend && npm run build:frontend && npm run build:contracts",
+    "build:frontend": "cd questlog-frontend && npm run build",
+    "build:backend": "cd questlog-backend && npm run build",
+    "build:contracts": "cd questlog-contracts && forge build",
+    "test:all": "npm run test:frontend && npm run test:backend && npm run test:contracts",
+    "test:frontend": "cd questlog-frontend && npm run test",
+    "test:backend": "cd questlog-backend && npm run test",
+    "test:contracts": "cd questlog-contracts && forge test",
+    "dev:frontend": "cd questlog-frontend && npm run dev",
+    "dev:backend": "cd questlog-backend && npm run dev",
+    "deploy:contracts": "cd questlog-contracts && npm run deploy",
+    "lint:all": "npm run lint:frontend && npm run lint:backend",
+    "lint:frontend": "cd questlog-frontend && npm run lint",
+    "lint:backend": "cd questlog-backend && npm run lint",
+    "validate:all": "npm run validate:env && npm run validate:deps && npm run build:all && npm run test:all",
+    "validate:env": "node scripts/validate-environment.js",
+    "validate:deps": "node scripts/validate-dependencies.js",
+    "setup:dev": "npm run install:all && npm run validate:all",
+    "clean": "rm -rf node_modules questlog-*/node_modules questlog-*/dist questlog-*/build questlog-contracts/out questlog-contracts/cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kashiwagiren/Questlog.git"
+  },
+  "keywords": [
+    "web3",
+    "quest",
+    "badge",
+    "nft",
+    "soulbound",
+    "ethereum",
+    "react",
+    "typescript",
+    "supabase"
+  ],
+  "author": "Questlog Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

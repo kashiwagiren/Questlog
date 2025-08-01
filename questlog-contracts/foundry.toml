@@ -1,0 +1,12 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = ["@openzeppelin=lib/openzeppelin-contracts"]
+
+# Etherscan configuration (optional for verification)
+# [etherscan]
+# lisk-sepolia = { key = "${ETHERSCAN_API_KEY}", chain = 4202, url = "https://blockscout.sepolia.lisk.com/api" }
+
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

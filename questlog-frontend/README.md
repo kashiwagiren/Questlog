@@ -5,9 +5,9 @@
 A comprehensive React-based frontend for a Web3 quest and achievement system that allows users to create quests, complete tasks, and earn soulbound NFT badges stored on the blockchain.
 
 > **Part of the Questlog Ecosystem**  
-> - **Frontend**: [questlog-frontend](https://github.com/questlog/questlog-frontend) - This repository
-> - **Smart Contracts**: [questlog-contracts](https://github.com/questlog/questlog-contracts) - Blockchain infrastructure  
-> - **Backend**: [questlog-backend](https://github.com/questlog/questlog-backend) - Database and API services
+> - **Frontend**: [questlog-frontend](https://github.com/kashiwagiren/Questlog/blob/main/questlog-frontend/README.md) - This repository
+> - **Smart Contracts**: [questlog-contracts](https://github.com/kashiwagiren/Questlog/blob/main/questlog-contracts/README.md) - Blockchain infrastructure  
+> - **Backend**: [questlog-backend](https://github.com/kashiwagiren/Questlog/blob/main/questlog-backend/README.md) - Database and API services
 
 ## 🎮 Live Demo
 

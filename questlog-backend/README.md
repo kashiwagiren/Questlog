@@ -5,9 +5,9 @@
 A comprehensive backend system built with **Supabase** for database management, real-time synchronization, and API services that powers the Questlog ecosystem.
 
 > **Part of the Questlog Ecosystem**  
-> - **Frontend**: [questlog-frontend](https://github.com/questlog/questlog-frontend) - React UI application
-> - **Smart Contracts**: [questlog-contracts](https://github.com/questlog/questlog-contracts) - Blockchain infrastructure  
-> - **Backend**: [questlog-backend](https://github.com/questlog/questlog-backend) - This repository
+> - **Frontend**: [questlog-frontend](https://github.com/kashiwagiren/Questlog/blob/main/questlog-frontend/README.md) - React UI application
+> - **Smart Contracts**: [questlog-contracts](https://github.com/kashiwagiren/Questlog/blob/main/questlog-contracts/README.md) - Blockchain infrastructure  
+> - **Backend**: [questlog-backend](https://github.com/kashiwagiren/Questlog/edit/main/questlog-backend/README.md) - This repository
 
 ## 🌟 Overview
 

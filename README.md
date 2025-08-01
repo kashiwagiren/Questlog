@@ -260,7 +260,6 @@ For detailed deployment instructions, see:
 - **[Frontend Documentation](./questlog-frontend/README.md)** - Component architecture, API integration
 - **[Backend Documentation](./questlog-backend/README.md)** - Service layer, database schema  
 - **[Smart Contracts Documentation](./questlog-contracts/README.md)** - Contract interfaces, deployment
-- **[API Documentation](./questlog-backend/API.md)** - RESTful endpoints and schemas
 
 ## 🐛 Troubleshooting
 

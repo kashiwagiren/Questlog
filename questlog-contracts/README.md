@@ -14,7 +14,7 @@ A comprehensive smart contract system built with **Solidity** and **Foundry** th
 **Network**: Lisk Sepolia Testnet
 
 - **QuestlogBadge Contract**: [`0xb4268cbf5e95a326646703a7435257899c151132`](https://sepolia-blockscout.lisk.com/address/0xb4268cbf5e95a326646703a7435257899c151132)
-- **QuestMinter Contract**: [`0x09f3dd43ba9f9efcffeea8e5632b0c9b71bed90c`](https://sepolia-blockscout.lisk.com/address/0x09f3dd43ba9f9efcffeea8e5632b0c9b71bed90c)
+- **QuestMinter Contract**: [`0xFB4F07C9eDd02b3c1659Cfebc098300517558E9E`](https://sepolia-blockscout.lisk.com/address/0xFB4F07C9eDd02b3c1659Cfebc098300517558E9E)
 
 ---
 

@@ -282,6 +282,13 @@ This project is licensed under the MIT License
 
 ---
 
+## 🔗 Related Projects
+
+* [Questlog Frontend](../questlog-frontend)
+* [Questlog Backend](../questlog-backend)
+
 **Built with ❤️ for the Web3 community**
+
+---
 
 For questions or support, please open an issue in the repository.

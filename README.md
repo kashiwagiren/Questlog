@@ -170,7 +170,7 @@ questlog/
 
 Each module can be deployed independently:
 
-- **Contracts**: See [contracts deployment guide](./questlog-contracts/)
+- **Contracts**: See [contracts](./questlog-contracts/)
 
 ### Production Setup
 

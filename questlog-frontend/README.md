@@ -11,7 +11,7 @@ A comprehensive React-based frontend for a Web3 quest and achievement system tha
 
 ## 🎮 Live Demo
 
-🌐 **[https://questlog.netlify.app](https://questlog.netlify.app)**
+🌐 **[https://questlog-dapp.netlify.app](https://questlog-dapp.netlify.app)**
 
 ## ✨ Key Features
 

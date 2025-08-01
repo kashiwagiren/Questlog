@@ -66,7 +66,7 @@ npm run deploy:contracts
 ## 🌐 Live Demo
 
 - **Frontend**: [https://questlog-dapp.netlify.app](https://questlog-dapp.netlify.app)
-- **Contracts**: [Lisk Sepolia Testnet](https://sepolia-blockscout.lisk.com/address/0xb4268cbf5e95a326646703a7435257899c151132)
+- **Contracts**: [Lisk Sepolia Testnet](https://sepolia-blockscout.lisk.com/address/0xb4268cbf5e95a326646703a7435257899c151132?tab=contract)
 
 ## 🛠️ Technology Stack
 

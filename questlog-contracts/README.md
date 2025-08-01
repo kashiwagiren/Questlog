@@ -50,7 +50,7 @@ The Questlog smart contract system enables:
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Frontend      │    │  QuestMinter    │    │ QuestlogBadge   │
-│   (React/TS)    │───▶│   Contract      │───▶│   Contract      │
+│                 │ -> │   Contract      │ -> │   Contract      │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
         │                        │                        │
         │                        │                        │

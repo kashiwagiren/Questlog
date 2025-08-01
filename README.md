@@ -292,7 +292,7 @@ For detailed deployment instructions, see:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## 🎯 Roadmap
 
@@ -325,7 +325,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **A comprehensive Web3 quest and achievement system that bridges Web2 and Web3**
 
-🌐 **[Live Demo](https://questlog.netlify.app)** | 📊 **[Smart Contracts](https://sepolia-blockscout.lisk.com/address/0xb4268cbf5e95a326646703a7435257899c151132)** | 🛠️ **[GitHub Organization](https://github.com/questlog)**
+🌐 **[Live Demo](https://questlog-dapp.netlify.app)** | 📊 **[Smart Contracts](https://sepolia-blockscout.lisk.com/address/0xb4268cbf5e95a326646703a7435257899c151132)**
 
 ## 🌟 Project Overview
 
@@ -368,7 +368,7 @@ The Questlog ecosystem consists of three main repositories:
 - Real-time backend integration
 - Comprehensive quest management system
 
-**🚀 [Live Demo](https://questlog.netlify.app)**
+**🚀 [Live Demo](https://questlog-dapp.netlify.app)**
 
 ### 🗄️ [questlog-backend](https://github.com/questlog/questlog-backend)
 **Database Services & API Layer**
@@ -416,7 +416,7 @@ The Questlog ecosystem consists of three main repositories:
 ## 🚀 Quick Start Guide
 
 ### For Users
-1. **Visit**: [questlog.netlify.app](https://questlog.netlify.app)
+1. **Visit**: [questlog.netlify.app](https://questlog-dapp.netlify.app)
 2. **Connect Wallet**: Use any Web3 wallet (MetaMask recommended)
 3. **Create Quests**: Design custom challenges for the community
 4. **Complete Tasks**: Earn soulbound NFT badges for achievements
@@ -482,7 +482,7 @@ graph LR
 
 ### Frontend
 - **Platform**: Netlify
-- **URL**: [questlog.netlify.app](https://questlog.netlify.app)
+- **URL**: [questlog.netlify.app](https://questlog-dapp.netlify.app)
 - **Auto-Deploy**: Connected to GitHub for automatic deployments
 
 ### Smart Contracts  
@@ -532,9 +532,8 @@ All Questlog repositories are licensed under the **MIT License**.
 
 ## 🔗 Links
 
-- **🌐 Live Application**: [questlog.netlify.app](https://questlog.netlify.app)
+- **🌐 Live Application**: [questlog-dapp.netlify.app](https://questlog-dapp.netlify.app)
 - **📊 Smart Contracts**: [Lisk Sepolia Explorer](https://sepolia-blockscout.lisk.com/address/0xb4268cbf5e95a326646703a7435257899c151132)
-- **🛠️ GitHub Organization**: [github.com/questlog](https://github.com/questlog)
 - **📖 Documentation**: Individual repository READMEs
 - **🐛 Issues**: Report issues in the respective repository
 

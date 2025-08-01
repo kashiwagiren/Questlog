@@ -15,7 +15,7 @@ A comprehensive React-based frontend for a Web3 quest and achievement system tha
 
 ## ✨ Key Features
 
-- 🎮 **Advanced Quest Creation**: Create detailed quests with configuration options including categories, difficulties, rewards, and requirements
+- 🎮 **Quest Creation**: Create detailed quests with configuration options including categories, difficulties, rewards, and requirements
 - 🏆 **Soulbound NFT Badges**: Permanent achievement badges minted as NFTs on Lisk Sepolia blockchain  
 - 👤 **User Profiles**: Comprehensive user profiles with badge collections, streak tracking, and social sharing
 - 🌐 **Web3 Integration**: Full blockchain integration with wallet connection, transaction handling, and smart contract interaction

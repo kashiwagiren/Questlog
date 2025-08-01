@@ -21,7 +21,6 @@ A comprehensive smart contract system built with **Solidity** and **Foundry** th
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
-- [Architecture](#-architecture)
 - [Repository Structure](#-repository-structure)
 - [Smart Contracts](#-smart-contracts)
 - [Key Features](#-key-features)
@@ -44,25 +43,6 @@ The Questlog smart contract system enables:
 - **Cross-Device Synchronization**: On-chain storage for permanent records
 - **Frontend Integration**: Seamless Web3 integration with the React frontend
 - **Access Control**: Secure minting with proper authorization
-
----
-
-## 🏗️ Architecture
-
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Frontend      │    │  QuestMinter    │    │ QuestlogBadge   │
-│                 │────│   Contract      │────│   Contract      │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-        │                        │                        │
-        │                        │                        │
-        ▼                        ▼                        ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│ Wagmi/RainbowKit│    │ Quest Validation│    │ Soulbound NFTs  │
-│ Wallet Connect  │    │ Badge Minting   │    │ ERC721 Standard │
-│ Transaction UI  │    │ Access Control  │    │ Non-Transferable│
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-```
 
 ## 📁 Repository Structure
 

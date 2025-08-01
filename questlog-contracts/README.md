@@ -276,4 +276,12 @@ const { data: hasBadge } = useContractRead({
 6. Push to branch: `git push origin feature/amazing-feature`
 7. Open a Pull Request
 
+## 📄 License
+
+This project is licensed under the MIT License
+
 ---
+
+**Built with ❤️ for the Web3 community**
+
+For questions or support, please open an issue in the repository.

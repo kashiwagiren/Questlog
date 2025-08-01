@@ -16,15 +16,15 @@ interface DiscordGuild {
 
 export class DiscordService {
   private static readonly CLIENT_ID =
-    import.meta.env.VITE_DISCORD_CLIENT_ID || "1397849962733371462";
+    import.meta.env.VITE_DISCORD_CLIENT_ID || "your_discord_client_id";
   private static readonly CLIENT_SECRET =
     import.meta.env.VITE_DISCORD_CLIENT_SECRET ||
-    "_6T3AuZ_5gyAEYU1gFWno-DD2THecgKB";
+    "your_discord_client_secret";
   private static readonly REDIRECT_URI =
     import.meta.env.VITE_DISCORD_REDIRECT_URI || `${window.location.origin}`;
   private static readonly BOT_TOKEN =
     import.meta.env.VITE_DISCORD_BOT_TOKEN ||
-    "MTM5Nzg0OTk2MjczMzM3MTQ2Mg.GEr8kk.RGkQbFWz3tmsJXFfEERGVeiVLU-JyLeapxV_pU";
+    "your_discord_bot_token";
 
   // Helper to get the correct API URL (use proxy in development)
   private static getApiUrl(endpoint: string): string {

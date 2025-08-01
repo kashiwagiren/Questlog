@@ -6,8 +6,8 @@ A comprehensive React-based frontend for a Web3 quest and achievement system tha
 
 > **Part of the Questlog Ecosystem**  
 > - **Frontend**: [questlog-frontend](https://github.com/questlog/questlog-frontend) - This repository
-> - **Backend**: [questlog-backend](https://github.com/questlog/questlog-backend) - Database services and API
-> - **Smart Contracts**: [questlog-contracts](https://github.com/questlog/questlog-contracts) - Blockchain infrastructure
+> - **Smart Contracts**: [questlog-contracts](https://github.com/questlog/questlog-contracts) - Blockchain infrastructure  
+> - **Backend**: [questlog-backend](https://github.com/questlog/questlog-backend) - Database and API services
 
 ## 🎮 Live Demo
 

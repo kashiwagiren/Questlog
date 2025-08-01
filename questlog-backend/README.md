@@ -388,3 +388,7 @@ MIT License
 * [Questlog Contracts](../questlog-contracts)
 
 **Built with ❤️ for the Web3 community**
+
+---
+
+For questions or support, please open an issue in the repository.

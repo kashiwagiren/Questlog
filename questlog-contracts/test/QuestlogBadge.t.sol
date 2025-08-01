@@ -15,7 +15,7 @@ contract QuestlogBadgeTest is Test {
     }
 
     function testMintAndSoulbound() public {
-        uint256 id = badge.mint(user, "ipfs://bafybeickigu7mcihkickss6n7qaasomy3vmeibbatebmjebjsh4obitv6a/badge01.json");
+        uint256 id = badge.mint(user, "ipfs://abcdefghijklmnopqrstuvwxyz/badge01.json");
         assertEq(badge.ownerOf(id), user);
         vm.expectRevert("QuestlogBadge: soulbound tokens are non-transferable");
         vm.prank(user);

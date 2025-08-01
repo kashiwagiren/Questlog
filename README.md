@@ -162,3 +162,19 @@ npm run validate:deps
 ### 🔮 Phase 3 – Ecosystem  
 - Quest provider SDK  
 - Template marketplace
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 🔗 Related Projects
+
+* [Questlog Frontend](../questlog-frontend)
+* [Questlog Contracts](../questlog-contracts)
+* [Questlog Backend](../questlog-backend)
+
+**Built with ❤️ for the Web3 community**

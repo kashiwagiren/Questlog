@@ -164,14 +164,6 @@ questlog/
 - **Asset Ownership**: Blockchain for permanent, verifiable achievements
 - **User Experience**: Seamless Web2 UX with Web3 benefits
 
-## 🚀 Deployment
-
-### Quick Deploy
-
-Each module can be deployed independently:
-
-- **Contracts**: See [contracts](./questlog-contracts/)
-
 ### Production Setup
 
 1. **Environment Configuration**

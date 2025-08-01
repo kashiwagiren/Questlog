@@ -192,8 +192,7 @@ questlog/
 
 For detailed deployment instructions, see:
 - [Frontend Deployment](./questlog-frontend/VERCEL_DEPLOYMENT.md)
-- [Backend Deployment](./questlog-backend/DEPLOYMENT.md)  
-- [Contracts Deployment](./questlog-contracts/DEPLOYMENT.md)
+- [Backend Deployment](./questlog-backend/DEPLOYMENT.md)
 
 ## 🔒 Security & Best Practices
 

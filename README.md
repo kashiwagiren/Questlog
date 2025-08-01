@@ -330,7 +330,7 @@ Questlog enables users to create quests, complete tasks, and earn permanent soul
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Frontend      │    │   Backend       │    │ Smart Contracts │
-│   (React/TS)    │────│   (Supabase)    │────│   (Solidity)    │
+│                 │────│   (Supabase)    │────│   (Solidity)    │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
         │                        │                        │
         │                        │                        │
@@ -342,112 +342,6 @@ Questlog enables users to create quests, complete tasks, and earn permanent soul
 │ • Web3 Wallet   │    │ • IPFS Storage  │    │ • Quest Validation│
 └─────────────────┘    └─────────────────┘    └───────────────────┘
 ```
-
-## 📁 Repository Structure
-
-The Questlog ecosystem consists of three main repositories:
-
-### 🎮 [questlog-frontend](https://github.com/questlog/questlog-frontend)
-**React TypeScript Frontend Application**
-
-- Modern React 18 + TypeScript + Vite setup
-- Web3 integration with Wagmi & RainbowKit  
-- Beautiful UI with Tailwind CSS
-- Real-time backend integration
-- Comprehensive quest management system
-
-**🚀 [Live Demo](https://questlog-dapp.netlify.app)**
-
-### 🗄️ [questlog-backend](https://github.com/questlog/questlog-backend)
-**Database Services & API Layer**
-
-- Supabase PostgreSQL with Row Level Security
-- Real-time cross-device synchronization
-- Discord OAuth and server verification
-- IPFS integration for image storage
-- TypeScript services for frontend integration
-
-**Tech Stack**: Supabase, PostgreSQL, TypeScript, Discord API, IPFS
-
-### ⛓️ [questlog-contracts](https://github.com/questlog/questlog-contracts)
-**Blockchain Smart Contracts**
-
-- Soulbound NFT badge system (ERC721)
-- Quest completion verification
-- Deployed on Lisk Sepolia testnet
-- Built with Solidity + Foundry
-
-**Live Contracts**: [View on Lisk Explorer](https://sepolia-blockscout.lisk.com/address/0xb4268cbf5e95a326646703a7435257899c151132)
-
-## ✨ Key Features
-
-### 🎮 Quest System
-- **Advanced Creation**: 15+ configuration options for quest customization
-- **Multiple Categories**: Social, gaming, learning, community quests
-- **Flexible Requirements**: Manual verification, Discord server joining, custom tasks
-
-### 🏆 Achievement System  
-- **Soulbound NFT Badges**: Permanent, non-transferable proof of achievement
-- **IPFS Metadata**: Decentralized storage for badge artwork and data
-- **Cross-Device Sync**: Achievements accessible across all devices
-
-### 🌐 Web3 Integration
-- **Multi-Wallet Support**: MetaMask, WalletConnect, Coinbase Wallet, and more
-- **Lisk Blockchain**: Fast, low-cost transactions on Lisk Sepolia
-- **Real-time Updates**: Live blockchain event monitoring
-
-### 👥 Social Features
-- **Discord Integration**: OAuth authentication and server-based quests
-- **User Profiles**: Comprehensive achievement showcasing
-- **Community Quests**: Collaborative challenges and events
-
-## 🚀 Quick Start Guide
-
-### For Users
-1. **Visit**: [questlog.netlify.app](https://questlog-dapp.netlify.app)
-2. **Connect Wallet**: Use any Web3 wallet (MetaMask recommended)
-3. **Create Quests**: Design custom challenges for the community
-4. **Complete Tasks**: Earn soulbound NFT badges for achievements
-
-### For Developers
-
-#### Prerequisites
-- **Node.js** 18+ and **npm**
-- **Git** for repository management
-- **Web3 Wallet** for testing
-- **Supabase Account** (for backend setup)
-
-#### Setup All Repositories
-
-```bash
-# Clone all repositories
-git clone https://github.com/questlog/questlog-frontend.git
-git clone https://github.com/questlog/questlog-backend.git  
-git clone https://github.com/questlog/questlog-contracts.git
-
-# Set up backend
-cd questlog-backend
-npm install
-# Configure Supabase (see backend README)
-
-# Set up frontend
-cd ../questlog-frontend
-npm install
-npm run dev
-
-# Set up contracts (optional)
-cd ../questlog-contracts  
-forge install
-forge build
-```
-
-#### Environment Configuration
-
-Each repository includes an `.env.example` file with required variables:
-
-- **Frontend**: Supabase, Discord, IPFS, and contract addresses
-- **Backend**: Supabase credentials and Discord OAuth settings
-- **Contracts**: Private keys and RPC URLs for deployment
 
 ## 🔗 Integration Flow
 
@@ -492,31 +386,6 @@ graph LR
 | **Backend** | Supabase, PostgreSQL, TypeScript, Discord API, IPFS |
 | **Blockchain** | Solidity, Foundry, OpenZeppelin, Lisk Blockchain |
 | **Deployment** | Netlify, Supabase Cloud, Lisk Sepolia |
-
-## 🤝 Contributing
-
-We welcome contributions to any part of the Questlog ecosystem!
-
-### Getting Started
-1. **Choose a repository** to contribute to
-2. **Fork the repository** and create a feature branch
-3. **Follow the setup instructions** in the respective README
-4. **Make your changes** and ensure tests pass
-5. **Submit a Pull Request** with a clear description
-
-### Development Guidelines
-- Follow TypeScript best practices
-- Write comprehensive tests for new features
-- Update documentation for any changes
-- Ensure all linting and formatting checks pass
-
-## 📄 License
-
-All Questlog repositories are licensed under the **MIT License**.
-
-- **questlog-frontend**: [MIT License](https://github.com/questlog/questlog-frontend/blob/main/LICENSE)
-- **questlog-backend**: [MIT License](https://github.com/questlog/questlog-backend/blob/main/LICENSE)  
-- **questlog-contracts**: [MIT License](https://github.com/questlog/questlog-contracts/blob/main/LICENSE)
 
 ## 🔗 Links
 

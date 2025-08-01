@@ -75,7 +75,7 @@ questlog-backend/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/questlog/questlog-backend.git
+   git clone https://github.com/kashiwagiren/Questlog/questlog-backend.git
    cd questlog-backend
    ```
 

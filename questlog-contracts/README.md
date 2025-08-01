@@ -266,16 +266,6 @@ const { data: hasBadge } = useContractRead({
 - **Event Logging**: Comprehensive event emission for transparency
 - **Upgrade Safety**: Immutable contracts for security
 
-## 📊 Gas Costs
-
-| Operation | Estimated Gas | USD Cost* |
-|-----------|---------------|-----------|
-| Complete Quest | ~85,000 | $0.15 |
-| Mint Badge | ~75,000 | $0.13 |  
-| Check Badge Status | ~25,000 | $0.04 |
-
-*Based on 20 gwei gas price and $2000 ETH
-
 ## 🤝 Contributing
 
 1. Fork the repository

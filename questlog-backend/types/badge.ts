@@ -11,6 +11,6 @@ export interface Badge {
   category: BadgeCategory;
   questId: string;
   transactionHash?: string;
-  ownerAddress?: string; // Added for admin panel functionality
-  tokenId?: string; // Added for badge burning functionality
+  ownerAddress?: string;
+  tokenId?: string;
 }

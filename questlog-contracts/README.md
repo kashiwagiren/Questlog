@@ -165,7 +165,7 @@ function getCompletedQuests(address user) external view returns (uint256[] memor
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/questlog/questlog-contracts.git
+   git clone https://github.com/kashiwagiren/Questlog/questlog-contracts.git
    cd questlog-contracts
    ```
 
@@ -255,7 +255,7 @@ import { questlogBadgeABI, questMinterABI } from './abis';
 
 // Contract addresses (Lisk Sepolia)
 export const QUESTLOG_BADGE_ADDRESS = '0xb4268cbf5e95a326646703a7435257899c151132';
-export const QUEST_MINTER_ADDRESS = '0x09f3dd43ba9f9efcffeea8e5632b0c9b71bed90c';
+export const QUEST_MINTER_ADDRESS = '0xFB4F07C9eDd02b3c1659Cfebc098300517558E9E';
 
 // Wagmi contract configuration
 export const questlogBadgeContract = {

@@ -6,8 +6,8 @@ A comprehensive smart contract system built with **Solidity** and **Foundry** th
 
 > **Part of the Questlog Ecosystem**  
 > - **Frontend**: [questlog-frontend](https://github.com/questlog/questlog-frontend) - React UI application
-> - **Backend**: [questlog-backend](https://github.com/questlog/questlog-backend) - Database and API services  
-> - **Smart Contracts**: [questlog-contracts](https://github.com/questlog/questlog-contracts) - This repository
+> - **Smart Contracts**: [questlog-contracts](https://github.com/questlog/questlog-contracts) - Blockchain infrastructure  
+> - **Backend**: [questlog-backend](https://github.com/questlog/questlog-backend) - Database and API services
 
 ## 🌐 Live Deployment
 
